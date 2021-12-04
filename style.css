@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  font: 18px 'Kumbh Sans', sans-serif;
+  line-height: 1.7;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* position: relative; */
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-position-x: -50%, 150%;
+  /* background-position: -50% 200%, 150% -200%; */
+  background-position-y: 200%, -200%;
+  background-position: fixed;
+  background-repeat: no-repeat;
+}
+
+/* .circles {
+  position: absolute;
+  width: 1200px;
+}
+
+.circles:first-of-type {
+  left: -40%;
+  top: -80%;
+}
+
+.circles:last-of-type {
+  right: -50%;
+  bottom: -50%;
+  overflow: hidden;
+} */
+
+.card {
+  background-color: white;
+  width: 350px;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: -10px 10px 50px hsla(185, 74%, 18%, 0.5);
+}
+
+.card-pattern {
+}
+
+.name {
+  text-align: center;
+  padding: 5rem 0 1.5rem 0;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+.name span {
+  color: hsl(227, 10%, 46%);
+}
+
+.name p {
+  color: hsl(227, 10%, 46%);
+  font-size: 14px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.stat {
+  text-align: center;
+  padding: 1rem;
+}
+
+.stat p:first-child {
+  font-weight: 700;
+}
+
+.stat p:nth-child(2) {
+  font-size: 12px;
+  color: hsl(227, 10%, 46%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
