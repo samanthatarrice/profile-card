@@ -16,8 +16,8 @@ body {
   justify-content: center;
   height: 100vh;
   background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
-  background-position-x: -50%, 150%;
-  background-position-y: 200%, -200%;
+  background-position-x: -65%, 150%;
+  background-position-y: 225%, -185%;
   background-repeat: no-repeat;
 }
 
@@ -45,10 +45,6 @@ body {
   border-radius: 15px;
   overflow: hidden;
   box-shadow: -10px 10px 50px hsla(185, 74%, 18%, 0.5);
-
-}
-
-.card-pattern {
 }
 
 .user-image-container {
